@@ -19,6 +19,7 @@ p {
     color: rgb(85, 85, 85);
 }
 
+
 /* TRANSITION */
 
 a,
@@ -82,6 +83,9 @@ section {
 /* PROFILE SECTION */
 
 #profile {
+    background: linear-gradient(-45deg, #ffffff 0%, #999999 60%);
+    border-radius: 24px;
+    padding: 3rem;
     display: flex;
     justify-content: center;
     gap: 5rem;
@@ -115,6 +119,9 @@ section {
 }
 
 .title {
+    background: linear-gradient(90deg, #000000, #888888);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 3rem;
     text-align: center;
 }
@@ -177,6 +184,8 @@ section {
 /* ABOUT SECTION */
 
 #about {
+    background: linear-gradient(180deg, #ffffff, #fafbff);
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
     position: relative;
 }
 
@@ -234,6 +243,8 @@ section {
 /* EXPERIENCE SECTION */
 
 #experience {
+    background: linear-gradient(180deg, #ffffff, #fafbff);
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
     position: relative;
 }
 
@@ -273,6 +284,10 @@ article .icon {
 /* PROJECTS SECTION */
 
 #projects {
+    background: linear-gradient(180deg, #ffffff, #fafbff);
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    border-radius: 20px;
+    padding-top: 6vh;
     position: relative;
 }
 
@@ -300,6 +315,8 @@ article .icon {
 /* CONTACT SECTION */
 
 #contact {
+    background: linear-gradient(180deg, #ffffff, #fafbff);
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -427,3 +444,4 @@ footer p {
 .hamburger-icon span:first-child {
     transform: none;
 }
+
